@@ -1,0 +1,24 @@
+{
+  "name": "kallistarvin",
+  "version": "1.0.0",
+  "description": "discordant gaming bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kathiedart/kallistarvin.git"
+  },
+  "keywords": [
+    "discordian",
+    "gaming",
+    "bot"
+  ],
+  "author": "Kathie Dart <git@kathiedart.uk>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kathiedart/kallistarvin/issues"
+  },
+  "homepage": "https://github.com/kathiedart/kallistarvin#readme"
+}
