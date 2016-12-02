@@ -4,7 +4,8 @@
   "description": "discordant gaming bot",
   "main": "index.js",
   "scripts": {
-    "start": "node --harmony index.js",
+    "build": "babel -d app src",
+    "start": "node --harmony app/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +24,11 @@
   },
   "homepage": "https://github.com/kathiedart/kallistarvin#readme",
   "dependencies": {
+    "commander": "^2.9.0",
     "irc": "^0.5.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0"
   }
 }
