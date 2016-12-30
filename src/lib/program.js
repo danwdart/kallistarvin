@@ -6,11 +6,17 @@ program.version('0.0.1')
     .option('-c, --channel [name]', 'Channel of IRC server [bots]', 'bots')
     .option('-n, --nick [name]', 'Nick of bot [kallibot]', 'kallibot')
     .option('-d, --delimiter [character]', 'Delimiter, e.g. symbol to listen for commands on, [!]', '!')
+    .option('-a, --admin-password [password]', 'Admin password')
     .parse(process.argv);
 
 if (!program.server) {
     console.error('Server is not set');
     process.exit(1);
+}
+
+if (!program.adminPassword) {
+    console.error('Admin password not set');
+    process.exit(2);
 }
 
 program.channel = '#' + program.channel;

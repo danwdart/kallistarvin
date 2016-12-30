@@ -14,7 +14,7 @@ let client = new irc.Client(program.server, program.nick, {
     debug: true,
     autoRejoin: true
 }),
-    listener = new Listener(client);
+    listener = new Listener(client, program);
 
 process.on('SIGINT', () => {
     console.log('SIGINT caught. Disconnecting.');
