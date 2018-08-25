@@ -28,9 +28,9 @@
     "irc": "^0.5.0"
   },
   "devDependencies": {
-    "@babel/cli": "7.0.0-beta.55",
-    "@babel/core": "7.0.0-beta.55",
-    "@babel/plugin-proposal-function-bind": "7.0.0-beta.55",
-    "@babel/plugin-transform-modules-commonjs": "7.0.0-beta.55"
+    "@babel/cli": "7.0.0-rc.3",
+    "@babel/core": "7.0.0-rc.1",
+    "@babel/plugin-proposal-function-bind": "7.0.0-rc.3",
+    "@babel/plugin-transform-modules-commonjs": "7.0.0-rc.1"
   }
 }
