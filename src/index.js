@@ -4,16 +4,16 @@ import irc from 'irc';
 import Listener from './lib/listener';
 import program from './lib/program';
 
-console.log(`Starting Kallistarvin`);
+console.log('Starting Kallistarvin');
 console.log(`Connecting to ${program.server} on port ${program.port}`);
 
 let client = new irc.Client(program.server, program.nick, {
-    userName: program.nick,
-    realName: 'Kallistarvin Bot',
-    channels: [program.channel],
-    debug: true,
-    autoRejoin: true
-}),
+        userName: program.nick,
+        realName: 'Kallistarvin Bot',
+        channels: [program.channel],
+        debug: true,
+        autoRejoin: true
+    }),
     listener = new Listener(client, program);
 
 process.on('SIGINT', () => {

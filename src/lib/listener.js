@@ -26,4 +26,4 @@ export default class Listener {
         this.client.say(from, `Just an echo bot for now. You said: ${message}`);
         this.action(message);
     }
-};
+}
