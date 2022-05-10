@@ -24,15 +24,15 @@
   },
   "homepage": "https://github.com/danwdart/kallistarvin#readme",
   "dependencies": {
-    "commander": "^7.0.0-1",
+    "commander": "^9.2.0",
     "irc": "^0.5.2"
   },
   "devDependencies": {
-    "@babel/cli": "7.12.8",
-    "@babel/core": "7.12.9",
-    "@babel/plugin-proposal-function-bind": "7.12.1",
-    "@babel/plugin-transform-modules-commonjs": "7.12.1",
+    "@babel/cli": "7.17.10",
+    "@babel/core": "7.17.10",
+    "@babel/plugin-proposal-function-bind": "7.16.7",
+    "@babel/plugin-transform-modules-commonjs": "7.17.9",
     "babel-eslint": "^11.0.0-beta.2",
-    "eslint": "^7.15.0"
+    "eslint": "^8.15.0"
   }
 }
