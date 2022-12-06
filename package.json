@@ -33,6 +33,6 @@
     "@babel/plugin-proposal-function-bind": "7.18.9",
     "@babel/plugin-transform-modules-commonjs": "7.19.6",
     "babel-eslint": "^11.0.0-beta.2",
-    "eslint": "^8.28.0"
+    "eslint": "^8.29.0"
   }
 }
