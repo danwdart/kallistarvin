@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/danwdart/kallistarvin#readme",
   "dependencies": {
-    "commander": "^9.5.0",
+    "commander": "^10.0.0",
     "irc": "^0.5.2"
   },
   "devDependencies": {
@@ -33,6 +33,6 @@
     "@babel/plugin-proposal-function-bind": "7.18.9",
     "@babel/plugin-transform-modules-commonjs": "7.20.11",
     "babel-eslint": "^11.0.0-beta.2",
-    "eslint": "^8.31.0"
+    "eslint": "^8.33.0"
   }
 }
