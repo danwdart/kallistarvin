@@ -10,19 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danwdart/kallistarvin.git"
+    "url": "git+https://github.com/emberdart/kallistarvin.git"
   },
   "keywords": [
     "discordian",
     "gaming",
     "bot"
   ],
-  "author": "Dan Dart <git@dandart.co.uk>",
+  "author": "Ember Dart <git@emberdart.co.uk>",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/danwdart/kallistarvin/issues"
+    "url": "https://github.com/emberdart/kallistarvin/issues"
   },
-  "homepage": "https://github.com/danwdart/kallistarvin#readme",
+  "homepage": "https://github.com/emberdart/kallistarvin#readme",
   "dependencies": {
     "@snyk/protect": "^1.1294.0",
     "commander": "^12.1.0",
